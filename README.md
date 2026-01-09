@@ -4,12 +4,12 @@
 
 # RESTAURA  
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
 <p align="center">
   <strong>Infraestructura web abierta para la restauración de bosques nativos basada en ciencia ciudadana</strong><br>
   <em>Open web infrastructure for native forest restoration through citizen science</em>
 </p>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
+
 ---
 
 ## 🌱 ¿Qué es Restaura?
