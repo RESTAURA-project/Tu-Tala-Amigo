@@ -3,9 +3,10 @@
 </p>
 
 # RESTAURA  
-**Infraestructura web abierta para la restauración de bosques nativos basada en ciencia ciudadana**
-**Open web infrastructure for native forest restoration through citizen science**
-
+<p align="center">
+  <strong>Infraestructura web abierta para la restauración de bosques nativos basada en ciencia ciudadana</strong><br>
+  <em>Open web infrastructure for native forest restoration through citizen science</em>
+</p>
 
 ---
 
