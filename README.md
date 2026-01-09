@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/assets/Banner-github2.png">
+  <img src="assets/Banner-github2.png">
 </p>
 
 # RESTAURA  
