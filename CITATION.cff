@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows:"
+title: "RESTAURA: Open web infrastructure for native forest restoration through citizen science"
+version: "1.0.0"
+date-released: 2025-01-01
+license: GPL-3.0-or-later
+url: "https://github.com/RESTAURA-project"
+
+authors:
+  - family-names: "Figueroa Schibber"
+    given-names: "Evelyn"
+    orcid: "https://orcid.org/0009-0009-4223-8846"
+  - family-names: "Chamorro"
+    given-names: "Débora Cintia"
+  - family-names: "Chamorro"
+    given-names: "Rocío Contestin"
