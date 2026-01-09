@@ -96,6 +96,22 @@ Siguiendo principios de ciencia abierta:
 Este enfoque equilibra apertura, trazabilidad y protección de la privacidad de los participantes.
 
 ---
+## 👤 Roles de usuario
+
+RESTAURA utiliza un sistema de roles para garantizar la participación abierta y proteger la información sensible.
+
+- **Administrador/a**
+  - Gestión de usuarios y roles  
+  - Acceso completo a los datos  
+  - Exportación de tablas (usuarios, inicios de sesión, árboles y eventos)  
+  - Visualización de estadísticas detalladas  
+
+- **Fenología**
+  - Carga de árboles y eventos fenológicos  
+  - Acceso únicamente a estadísticas generales  
+  - Sin acceso a datos sensibles de otros participantes  
+
+Este esquema sigue buenas prácticas de **ética, privacidad y ciencia ciudadana**.
 
 ## 🚧 Estado del proyecto
 
