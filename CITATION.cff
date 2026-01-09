@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as follows:"
 title: "RESTAURA: Open web infrastructure for native forest restoration through citizen science"
-version: "1.0.0"
-date-released: 2025-01-01
+version: "1.0.3"
+date-released: 2026-01-09
 license: GPL-3.0-or-later
 url: "https://github.com/RESTAURA-project"
 
@@ -12,5 +12,24 @@ authors:
     orcid: "https://orcid.org/0009-0009-4223-8846"
   - family-names: "Chamorro"
     given-names: "Débora Cintia"
-  - family-names: "Chamorro"
-    given-names: "Rocío Contestin"
+    orcid: "https://orcid.org/0000-0003-4454-8919"
+  - family-names: "Contestin"
+    given-names: "Rocío"
+  - family-names: "Rodríguez"
+    given-names: "Natalia"
+    orcid: "https://orcid.org/0000-0002-7880-5840"
+  - family-names: "Molina"
+    given-names: "Cecilia"
+    orcid: "https://orcid.org/0000-0001-8580-6553"
+  - family-names: "Malavert"
+    given-names: "Cristian"
+    orcid: "http://orcid.org/0000-0002-6565-2638"
+  - family-names: "Fressoli"
+    given-names: "Mariano"
+    orcid: "https://orcid.org/0000-0003-4060-0943"
+  - family-names: "Tognetti"
+    given-names: "Pedro Maximiliano"
+    orcid: "https://orcid.org/0000-0001-7358-1334"
+  - family-names: "Mariela Verónica"
+    given-names: "Pedro Maximiliano"
+    orcid: "https://orcid.org/0000-0003-1323-3631"
