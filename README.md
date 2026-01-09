@@ -85,6 +85,20 @@ Una vez completados estos pasos, la aplicación queda operativa.
 *(Un manual de instalación detallado será publicado próximamente.)*
 
 ---
+## 📍 Alcance geográfico
+
+RESTAURA fue diseñada inicialmente para proyectos desarrollados en **Argentina**.
+
+Por este motivo, la base de datos incluye:
+- un catálogo de **provincias argentinas**
+- localidades correspondientes al territorio nacional
+
+Esta decisión responde al contexto del proyecto y a las necesidades específicas de los proyectos de restauración de bosques nativos en Argentina.
+
+La arquitectura del sistema permite, no obstante, su adaptación a otros países mediante la modificación o ampliación de las tablas geográficas.
+
+---
+
 
 ## 📊 Datos, ética y privacidad
 
