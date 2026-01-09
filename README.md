@@ -1,11 +1,5 @@
-![Banner del proyecto](assets/Banner-github2.png)
-
 <p align="center">
-  <img src="assets/banner_restaura.png">
-</p>
-
-<p align="center">
-  <img src="assets/banner_restaura.png">
+  <img src="assets/assets/Banner-github2.png">
 </p>
 
 # RESTAURA  
