@@ -65,6 +65,21 @@ Las personas con rol Fenología o Administrador/a pueden:
 Cada árbol funciona como unidad base para los registros fenológicos.
 
 ---
+## 📍 Consideraciones geográficas
+
+Actualmente, RESTAURA está configurada para su uso en **Argentina**.
+
+Durante la carga de árboles y eventos:
+- las provincias disponibles corresponden exclusivamente a Argentina
+- las localidades están asociadas a dichas provincias
+
+Esta configuración no es una limitación técnica, sino una **decisión de diseño alineada con el alcance del proyecto**.
+
+En caso de utilizar RESTAURA en otros países, es posible:
+- reemplazar o ampliar las tablas de provincias y localidades
+- adaptar la base de datos a nuevos contextos territoriales
+
+---
 
 ## 🌼 Registro de eventos fenológicos
 
