@@ -2,7 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as follows:"
 title: "RESTAURA: Open web infrastructure for native forest restoration through citizen science"
 version: "1.0.3"
+doi: 10.5281/zenodo.18200027
 date-released: 2026-01-09
+repository-code: https://github.com/RESTAURA-project/restaura
+type: software
 license: GPL-3.0-or-later
 url: "https://github.com/RESTAURA-project"
 
