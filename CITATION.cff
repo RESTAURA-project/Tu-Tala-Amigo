@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+cff-version: 1.0.3
 message: "If you use this software, please cite it as follows:"
 title: "RESTAURA: Open web infrastructure for native forest restoration through citizen science"
 version: "1.0.3"
 doi: 10.5281/zenodo.18200027
 date-released: 2026-01-09
-repository-code: https://github.com/RESTAURA-project/restaura
+repository-code: https://github.com/RESTAURA-project/Tu-Tala-Amigo
 type: software
 license: GPL-3.0-or-later
 url: "https://github.com/RESTAURA-project"
@@ -26,13 +26,13 @@ authors:
     orcid: "https://orcid.org/0000-0001-8580-6553"
   - family-names: "Malavert"
     given-names: "Cristian"
-    orcid: "http://orcid.org/0000-0002-6565-2638"
+    orcid: "https://orcid.org/0000-0002-6565-2638"
   - family-names: "Fressoli"
     given-names: "Mariano"
     orcid: "https://orcid.org/0000-0003-4060-0943"
   - family-names: "Tognetti"
     given-names: "Pedro Maximiliano"
     orcid: "https://orcid.org/0000-0001-7358-1334"
-  - family-names: "Mariela Verónica"
-    given-names: "Pedro Maximiliano"
+  - family-names: "Lacoretz"
+    given-names: "Mariela Verónica"
     orcid: "https://orcid.org/0000-0003-1323-3631"
