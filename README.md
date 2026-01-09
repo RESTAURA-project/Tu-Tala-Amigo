@@ -106,9 +106,20 @@ Se prevé:
 
 ## 📖 Cómo citar
 
-Si usás Restaura en un trabajo académico, podés citar el proyecto de la siguiente manera:
+### Software
 
-> Figueroa Schibber, E. et al. (2025). Tu Tala Amigo: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina (Versión v1). 2do Congreso Iberoamericano de Ciencia Abierta (CIbCA2025), Quito-Ecuador. Zenodo. https://doi.org/10.5281/zenodo.17476863
+Si utilizás el software **RESTAURA** en un trabajo académico, citá la versión del software:
+
+Figueroa Schibber, E. et al. (2026). RESTAURA: Open web infrastructure for native forest restoration through citizen science (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
+
+---
+
+### Trabajo académico
+
+Si querés citar el **marco conceptual, el diseño del proyecto o el contexto metodológico**, podés citar el trabajo presentado en congreso:
+
+Figueroa Schibber, E. et al. (2025). *Tu Tala Amigo: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina* (Versión v1). 2do Congreso Iberoamericano de Ciencia Abierta (CIbCA2025), Quito, Ecuador. Zenodo. https://doi.org/10.5281/zenodo.17476863
+
 
 ---
 
