@@ -3,13 +3,13 @@
 </p>
 
 # RESTAURA  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
+
 
 <p align="center">
   <strong>Infraestructura web abierta para la restauración de bosques nativos basada en ciencia ciudadana</strong><br>
   <em>Open web infrastructure for native forest restoration through citizen science</em>
 </p>
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
 ---
 
 ## 🌱 ¿Qué es Restaura?
@@ -69,6 +69,7 @@ Restaura utiliza una arquitectura clásica de tres capas:
 - **Base de datos:** MySQL  
 
 El sistema está diseñado para entornos **LAMP (Linux, Apache, MySQL, PHP)** y no depende de servicios externos.
+La arquitectura fue diseñada priorizando simplicidad, reproducibilidad y bajo costo de mantenimiento.
 
 ---
 
@@ -112,7 +113,7 @@ Se prevé:
 
 Si utilizás el software **RESTAURA** en un trabajo académico, citá la versión del software:
 
-Figueroa Schibber, E. et al. (2026). RESTAURA: Open web infrastructure for native forest restoration through citizen science (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
+Figueroa Schibber, E., et al. (2026). RESTAURA: Open web infrastructure for native forest restoration through citizen science (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
 
 ---
 
@@ -120,14 +121,14 @@ Figueroa Schibber, E. et al. (2026). RESTAURA: Open web infrastructure for nativ
 
 Si querés citar el **marco conceptual, el diseño del proyecto o el contexto metodológico**, podés citar el trabajo presentado en congreso:
 
-Figueroa Schibber, E. et al. (2025). *Tu Tala Amigo: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina* (Versión v1). 2do Congreso Iberoamericano de Ciencia Abierta (CIbCA2025), Quito, Ecuador. Zenodo. https://doi.org/10.5281/zenodo.17476863
+Figueroa Schibber, E., et al. (2025). *Tu Tala Amigo: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina* (Versión v1). 2do Congreso Iberoamericano de Ciencia Abierta (CIbCA2025), Quito, Ecuador. Zenodo. https://doi.org/10.5281/zenodo.17476863
 
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo licencia **software libre**.  
+Este proyecto se distribuye bajo licencia **GNU GPL v3.0 o posterior (GPL-3.0-or-later)**.  
 Ver archivo `LICENSE` para más detalles.
 
 ---
