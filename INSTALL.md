@@ -49,7 +49,11 @@ Esto puede hacerse mediante phpMyAdmin o desde la línea de comandos:
 ```bash
 
 mysql -u usuario -p restaura_db < EstructuraDB.sql
+
 ```
+> 📌 Nota:
+> La estructura de la base de datos incluye tablas de provincias y localidades correspondientes a Argentina.
+> Para utilizar la plataforma en otros países, estas tablas deben ser modificadas o ampliadas manualmente.
 
 4️⃣ Configurar la conexión a la base de datos
 Editar el archivo:
@@ -67,6 +71,7 @@ $password = "password";
 $dbname = "restaura_db";
 ```
 Guardar los cambios antes de continuar.
+
 
 
 5️⃣ Acceder a la aplicación
