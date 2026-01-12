@@ -150,6 +150,8 @@ A continuación se muestran algunas capturas de la interfaz de Restaura durante 
 ### Visualización de datos
 ![Visualización](assets/screenshots/dashboard.png)
 
+### Uso en dispositivos móviles
+![Vista móvil](assets/screenshots/mobile_views.png)
 
 ---
 
