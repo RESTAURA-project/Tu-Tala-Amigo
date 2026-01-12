@@ -137,6 +137,22 @@ Se prevé:
 
 ---
 
+## 🖥️ Capturas de la plataforma
+
+A continuación se muestran algunas capturas de la interfaz de Restaura durante su uso en el proyecto *Tu Tala Amigo*.
+
+### Registro de árboles
+![Registro de árboles](assets/screenshots/registro_arbol.png)
+
+### Carga de eventos fenológicos
+![Carga de eventos](assets/screenshots/eventos_fenologicos.png)
+
+### Visualización de datos
+![Visualización](assets/screenshots/dashboard.png)
+
+
+---
+
 ## 📖 Cómo citar
 
 ### Software
