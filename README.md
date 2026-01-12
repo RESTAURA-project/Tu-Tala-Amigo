@@ -6,8 +6,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
 <p align="center">
-  <strong>Infraestructura web abierta para la restauración de bosques nativos basada en ciencia ciudadana</strong><br>
-  <em>Open web infrastructure for native forest restoration through citizen science</em>
+  <strong>Restaura: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina</strong><br>
+  <em>Open web platform for participatory phenological monitoring of native trees in Argentina</em>
 </p>
 
 ---
