@@ -185,6 +185,7 @@ Ver archivo `LICENSE` para más detalles.
 
 Proyecto desarrollado por un equipo interdisciplinario de investigadores/as en ecología, ciencia ciudadana y tecnologías abiertas.
 
-🌐 Sitio web: https://www.restaura.com.ar 
+🌐 Sitio web: https://www.restaura.com.ar  
 📧 Contacto: eschibber@agro.uba.ar  
 🔗 Repositorio: https://github.com/RESTAURA-project
+
