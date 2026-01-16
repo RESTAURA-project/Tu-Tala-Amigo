@@ -161,7 +161,7 @@ A continuación se muestran algunas capturas de la interfaz de Restaura durante 
 
 Si utilizás el software **RESTAURA** en un trabajo académico, citá la versión del software:
 
-Figueroa Schibber, E., et al. (2026). RESTAURA: Open web infrastructure for native forest restoration through citizen science (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
+Figueroa Schibber, E., et al. (2026). RESTAURA:Open web infrastructure for participatory phenological monitoring of native trees in Argentina (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
 
 ---
 
