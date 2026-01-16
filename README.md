@@ -4,7 +4,7 @@
 
 # RESTAURA  
 
-[![DOI](assets/zenodo-doi.svg)](https://doi.org/10.5281/zenodo.18200027)
+[![DOI](assets/zenodo.18200027.svg)](https://doi.org/10.5281/zenodo.18200027)
 
 <p align="center">
   <strong>Restaura: plataforma web abierta para el seguimiento fenológico participativo de árboles nativos de Argentina</strong><br>
