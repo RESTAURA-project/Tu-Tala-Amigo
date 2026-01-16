@@ -63,40 +63,25 @@ Este caso permitió validar la usabilidad, estabilidad y potencial de la platafo
 
 ## 🧱 Arquitectura del sistema
 
-Restaura utiliza una arquitectura clásica de tres capas:
-
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap, jQuery  
-- **Backend:** PHP  
-- **Base de datos:** MySQL  
-
+RESTAURA utiliza una arquitectura web clásica de tres capas (frontend, backend y base de datos), priorizando simplicidad, reproducibilidad y bajo costo de mantenimiento.  
 El sistema está diseñado para entornos **LAMP (Linux, Apache, MySQL, PHP)** y no depende de servicios externos.
-La arquitectura fue diseñada priorizando simplicidad, reproducibilidad y bajo costo de mantenimiento.
+
+📄 Una descripción técnica detallada de la arquitectura y del modelo de datos se encuentra en [`DATA_MODEL.md`](DATA_MODEL.md).
 
 ---
 
 ## ⚙️ Instalación
 
-1. Clonar el repositorio
-2. Copiar los archivos al directorio raíz de Apache
-3. Importar la base de datos desde `EstructuraDB.sql`
-4. Configurar la conexión en `db_connect.php`
+RESTAURA requiere un entorno **LAMP (Linux, Apache, MySQL, PHP)**.
 
-Una vez completados estos pasos, la aplicación queda operativa.
-
-*(Un manual de instalación detallado será publicado próximamente.)*
+📄 Las instrucciones completas de instalación y configuración se encuentran en [`INSTALL.md`](INSTALL.md).
 
 ---
 ## 📍 Alcance geográfico
 
-RESTAURA fue diseñada inicialmente para proyectos desarrollados en **Argentina**.
+RESTAURA fue diseñada inicialmente para proyectos desarrollados en **Argentina**, por lo que la base de datos incluye catálogos de provincias y localidades nacionales.
 
-Por este motivo, la base de datos incluye:
-- un catálogo de **provincias argentinas**
-- localidades correspondientes al territorio nacional
-
-Esta decisión responde al contexto del proyecto y a las necesidades específicas de los proyectos de restauración de bosques nativos en Argentina.
-
-La arquitectura del sistema permite, no obstante, su adaptación a otros países mediante la modificación o ampliación de las tablas geográficas.
+La arquitectura permite su adaptación a otros países mediante la modificación o ampliación de las tablas geográficas.
 
 ---
 
@@ -126,7 +111,7 @@ RESTAURA utiliza un sistema de roles para garantizar la participación abierta y
   - Acceso únicamente a estadísticas generales  
   - Sin acceso a datos sensibles de otros participantes  
 
-Este esquema sigue buenas prácticas de **ética, privacidad y ciencia ciudadana**.
+Este esquema busca equilibrar participación abierta, protección de la privacidad y buenas prácticas en proyectos de ciencia ciudadana.
 
 ## 🚧 Estado del proyecto
 
@@ -162,7 +147,7 @@ A continuación se muestran algunas capturas de la interfaz de Restaura durante 
 
 Si utilizás el software **RESTAURA** en un trabajo académico, citá la versión del software:
 
-Figueroa Schibber, E., et al. (2026). RESTAURA:Open web infrastructure for participatory phenological monitoring of native trees in Argentina (v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
+Figueroa Schibber, E., et al. (2026). RESTAURA: Open web infrastructure for participatory phenological monitoring of native trees in Argentina (v1.0.3) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18200027
 
 ---
 
