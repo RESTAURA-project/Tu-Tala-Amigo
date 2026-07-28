@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Términos de Uso | {{PROJECT_NAME}}</title>
+  <meta name="description" content="Términos de Uso de {{PROJECT_NAME}}, una implementación basada en RESTAURA.">
+
+  <style>
+    :root {
+      --bg: #f5f6f2;
+      --surface: #ffffff;
+      --text: #26312c;
+      --muted: #5f6d66;
+      --primary: #2f6b4f;
+      --primary-dark: #234f3b;
+      --accent: #dce9df;
+      --border: #d8dfda;
+      --warning-bg: #fff8e7;
+      --warning-border: #e6c971;
+      --max-width: 920px;
+      --radius: 14px;
+      --shadow: 0 8px 28px rgba(35, 79, 59, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.68;
+    }
+    a { color: var(--primary); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover, a:focus { color: var(--primary-dark); }
+    .site-header {
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      color: #fff;
+      padding: 3.5rem 1.25rem 3rem;
+    }
+    .header-inner, main, .site-footer {
+      width: min(calc(100% - 2rem), var(--max-width));
+      margin-inline: auto;
+    }
+    .eyebrow {
+      margin: 0 0 0.35rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.3rem);
+      line-height: 1.12;
+    }
+    .subtitle {
+      max-width: 720px;
+      margin: 1rem 0 0;
+      font-size: 1.08rem;
+      opacity: 0.9;
+    }
+    main { padding: 2rem 0 4rem; }
+    .notice, .document {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .notice {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.25rem;
+      border-left: 5px solid var(--warning-border);
+      background: var(--warning-bg);
+    }
+    .notice p { margin: 0; }
+    .document { padding: clamp(1.25rem, 4vw, 3rem); }
+    .metadata {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.65rem 1.25rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section + section {
+      margin-top: 2.6rem;
+      padding-top: 2.2rem;
+      border-top: 1px solid var(--border);
+    }
+    h2 {
+      margin: 0 0 1rem;
+      color: var(--primary-dark);
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      line-height: 1.25;
+    }
+    h3 { margin: 1.5rem 0 0.55rem; font-size: 1.1rem; line-height: 1.35; }
+    p { margin: 0.75rem 0; }
+    ul { padding-left: 1.4rem; }
+    li + li { margin-top: 0.35rem; }
+    code {
+      background: #eef2ef;
+      padding: 0.08rem 0.3rem;
+      border-radius: 4px;
+      font-size: 0.92em;
+    }
+    .site-footer {
+      padding: 0 0 3rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+    @media (max-width: 700px) {
+      .site-header { padding-top: 2.5rem; }
+      body { font-size: 16px; }
+    }
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      .site-header { background: none; color: #000; padding: 0 0 1.5rem; }
+      .notice, .document { box-shadow: none; }
+      .document { border: 0; padding: 0; }
+      a { color: inherit; }
+    }
+  </style>
+
+</head>
+<body>
+<!--
+PLANTILLA GENÉRICA PARA IMPLEMENTACIONES DE RESTAURA
+
+Reemplazar antes de publicar:
+{{PROJECT_NAME}}
+{{ORGANIZATION}}
+{{PROJECT_EMAIL}}
+{{PROJECT_URL}}
+{{PHOTO_LICENSE_NAME}}
+{{PHOTO_LICENSE_URL}}
+{{LAST_UPDATED}}
+
+Esta plantilla debe adaptarse a la legislación local y a las políticas institucionales.
+-->
+<header class="site-header">
+  <div class="header-inner">
+    <p class="eyebrow">{{PROJECT_NAME}}</p>
+    <h1>Términos de Uso</h1>
+    <p class="subtitle">
+      Condiciones de participación y uso de esta implementación de RESTAURA.
+    </p>
+  </div>
+</header>
+
+<main>
+  <aside class="notice">
+    <p><strong>Plantilla para personalizar.</strong> Complete todos los campos entre llaves y revise el texto conforme a las políticas de su institución.</p>
+  </aside>
+
+  <article class="document">
+    <div class="metadata">
+      <span><strong>Proyecto:</strong> {{PROJECT_NAME}}</span>
+      <span><strong>Institución responsable:</strong> {{ORGANIZATION}}</span>
+      <span><strong>Sitio web:</strong> <a href="{{PROJECT_URL}}">{{PROJECT_URL}}</a></span>
+      <span><strong>Contacto:</strong> <a href="mailto:{{PROJECT_EMAIL}}">{{PROJECT_EMAIL}}</a></span>
+      <span><strong>Última actualización:</strong> {{LAST_UPDATED}}</span>
+    </div>
+
+    <section>
+      <h2>1. Aceptación</h2>
+      <p>
+        La creación de una cuenta y el uso de {{PROJECT_NAME}} implican la aceptación de estos Términos de Uso y de la Política de Privacidad vigente.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Sobre esta implementación</h2>
+      <p>
+        {{PROJECT_NAME}} utiliza RESTAURA, una infraestructura digital de código abierto para el monitoreo ecológico longitudinal mediante ciencia ciudadana.
+        Esta implementación es administrada por {{ORGANIZATION}}.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Finalidad de la participación</h2>
+      <p>
+        La plataforma permite registrar y compartir observaciones ecológicas con fines científicos, educativos, de divulgación y de apoyo a la restauración o gestión ambiental.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Responsabilidades de la persona participante</h2>
+      <p>La persona participante se compromete a:</p>
+      <ul>
+        <li>Proporcionar información de buena fe y, dentro de sus posibilidades, correcta.</li>
+        <li>No registrar información deliberadamente falsa o engañosa.</li>
+        <li>No subir fotografías o contenidos sobre los que no tenga derechos suficientes.</li>
+        <li>No utilizar la plataforma para actividades ilícitas, ofensivas o ajenas a sus objetivos.</li>
+        <li>Proteger la confidencialidad de sus credenciales de acceso.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Uso científico de las observaciones</h2>
+      <p>
+        Las observaciones aportadas podrán utilizarse para análisis, informes, publicaciones científicas, materiales educativos, actividades de divulgación y productos derivados del proyecto.
+      </p>
+      <p>
+        Cuando corresponda, los datos serán compartidos de forma agregada, seudonimizada o anonimizada.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Fotografías y licencia</h2>
+      <p>
+        La persona participante conserva la autoría de las fotografías que aporta. Al cargarlas, acepta compartirlas bajo la licencia
+        <a href="{{PHOTO_LICENSE_URL}}" target="_blank" rel="noopener noreferrer">{{PHOTO_LICENSE_NAME}}</a>.
+      </p>
+      <p>
+        La persona participante declara que es autora de las imágenes o que cuenta con autorización suficiente para publicarlas bajo dicha licencia.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Disponibilidad de la plataforma</h2>
+      <p>
+        El equipo responsable procurará mantener la infraestructura disponible y proteger la integridad de la información, pero no garantiza un funcionamiento continuo e ininterrumpido. Podrán realizarse tareas de mantenimiento, actualización o corrección.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Moderación de contenidos y cuentas</h2>
+      <p>
+        El equipo responsable podrá corregir, ocultar o eliminar registros manifiestamente erróneos, duplicados, inapropiados o incompatibles con los objetivos del proyecto. También podrá suspender cuentas utilizadas de manera abusiva o contraria a estos términos.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Solicitud de baja</h2>
+      <p>
+        La persona participante puede solicitar la baja de su cuenta escribiendo a
+        <a href="mailto:{{PROJECT_EMAIL}}">{{PROJECT_EMAIL}}</a>.
+        La gestión de los datos previamente aportados se realizará conforme a la Política de Privacidad y a las obligaciones científicas, éticas e institucionales aplicables.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Modificaciones</h2>
+      <p>
+        Estos Términos de Uso podrán actualizarse. Cuando los cambios sean sustanciales, el proyecto podrá solicitar una nueva aceptación o comunicar la actualización por los medios disponibles.
+      </p>
+    </section>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p>{{PROJECT_NAME}} · {{ORGANIZATION}} · <a href="mailto:{{PROJECT_EMAIL}}">{{PROJECT_EMAIL}}</a></p>
+</footer>
+</body>
+</html>
